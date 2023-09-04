@@ -1,0 +1,40 @@
+body{
+    background: #a4d0f3;
+}
+
+body h2{
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.main{
+    width: 95%;
+    margin: auto;
+    background: white;
+}
+
+div{
+    border: 1px solid black;
+}
+.pesonal-info{
+    display: inline-block;
+}
+.pesonal-info .label{
+    width: 30%;
+}
+.pesonal-info .input{
+    width: 49%;
+    float: left;
+}
+
+.recom-ans label{
+    display: block;
+}
+
+.improve-ans label{
+    display: block;
+}
+
+.option option{
+    background-color: #b8b5b5;
+}

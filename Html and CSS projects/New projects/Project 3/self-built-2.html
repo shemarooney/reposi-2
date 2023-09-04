@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style-2.css">
+</head>
+<body>
+    
+    <span> <h2>Survey form</h2> </span>
+    <div class="main">
+<div class="pesonal-info">
+        <div class="label">
+            <label for="name" id="label-name"> Name: </label>
+            <br>
+            <label for="email" id="label-name"> Email: </label>
+            <br>
+            <label for="quantity">Age:</label>
+        </div>
+        <div class="Input">
+            <input type="text" id="name" placeholder="Enter your name" /> <br>
+            <input type="email" id="email" placeholder="Enter your email" />
+            <input type="number" id="quantity" min="18" max="100" placeholder="Enter your Age">
+        </div>
+</div>
+        <span class="role"><p>Which option best describe your current role?</p></span>
+        <span class="option">
+            <select>
+                <option value="Student">Student</option>
+                <option value="Intern">Intern</option>
+                <option value="Professional">Professional</option>
+                <option value="Other">Other</option>
+            </select>
+        </span>
+
+        <div class="recommed"><p>How likely are you to recommed <br> freeCodeCamp to a friend?</p></div>
+        <div class="recom-ans">
+            <label for="recommed-1">
+				<input type="radio"
+					id="recommed-1"
+					name="recommed">Definitely</input>
+			</label>
+			<label for="recommed-2">
+				<input type="radio"
+					id="recommed-2"
+					name="recommed">Maybe</input>
+			</label>
+			<label for="recommed-3">
+				<input type="radio"
+					id="recommed-3"
+					name="recommed">Not sure</input>
+			</label>
+        </div>
+
+        <span class="role"><p>What do you like most in FCC</p></span>
+        <span class="option">
+            <select>
+                <option value="Option">Select an option</option>
+                <option value="Fast">It's fast</option>
+                <option value="Easy">Easy to use</option>
+                <option value="Free">Free to use</option>
+            </select>
+        </span> 
+
+        <div class="improve"><p>Things that should be improved in the future <br> (Check all the apply):</p></div>
+        <div class="improve-ans">
+            <label for="recommed-1">
+				<input type="radio"
+					id="recommed-1"
+					name="recommed">Front-end projects</input>
+			</label>
+			<label for="recommed-2">
+				<input type="radio"
+					id="recommed-2"
+					name="recommed">Back-end projects</input>
+			</label>
+			<label for="recommed-3">
+				<input type="radio"
+					id="recommed-3"
+					name="recommed">Data Visualization</input>
+			</label>
+        </div>
+    </div>
+</body>
+</html>

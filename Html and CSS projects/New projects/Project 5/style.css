@@ -1,0 +1,56 @@
+*{
+    font-family: verdana, arial;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(Screenshot\ \(69\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px;
+}
+
+header .logo{
+    user-select: none;
+}
+
+header img{
+    width: 120px;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #808080;
+    margin: 0px 25px;
+}
+
+.navigation a:hover{
+    color: black;
+}
+
+
+
+main{
+    text-align: center;
+    color: #fff;
+    transform: translate(0%, 50%);
+}
+
+main h1{
+    font-size: 4.2em;
+}
+
+main p{
+    font-size: 1.7em;
+}

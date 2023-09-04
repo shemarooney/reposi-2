@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ecf8f4;
+}
+
+.main{
+    flex: 1;
+    margin: 0px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    font-size: larger;
+}
+
+.form{
+    width: 50%;
+    transform: translate(0%, -60%);
+    text-align: center;
+    display: inline-block;
+}
+
+.form .user-pass{
+    width: 350px;
+    height: 30px;
+    border: none;
+    padding: 10px;
+}
+
+.form span{
+    justify-content: space-between;
+}
+
+.span a{
+    margin-left: 100px;
+}
+
+.img{
+    width: 49%;
+    margin: 0;
+    display: inline-block;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(Trend-Bookshelf-Engineered-Wood-Open-SDL763526285-1-862c5.jpg);
+}
+.img img{
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(Trend-Bookshelf-Engineered-Wood-Open-SDL763526285-1-862c5.jpg);
+}
+
+button{
+    background-color: rgb(232, 50, 18);
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 350px;
+    height: 30px;
+    border: 0px;
+    border-radius: 2px;
+}
+
+@media (max-width: 650px){
+    .form{
+        width: 100%;
+        transform: translateX(0%);
+    }
+    .img{
+        width: 100%;
+        margin-top: 15px;
+    }
+}

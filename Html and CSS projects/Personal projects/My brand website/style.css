@@ -1,0 +1,187 @@
+*{
+    font-family: 'yu gothic';
+    box-sizing: border-box;
+}
+
+body{
+    color: #fff;
+    background: #000;
+    margin: 0;
+}
+
+.navigation{
+    padding: 10px;
+    background: #000;
+}
+
+.navigation ul{
+    display: flex;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+.navigation .nav{
+    margin-left: auto;
+    margin-right: 45px;
+}
+
+.navigation li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.navigation a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px 10px;
+}
+
+.navigation .logo{
+    user-select: none;
+}
+
+.navigation img{
+    width: 80px;
+    height: 50px;
+}
+
+.main{
+    width: 90%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background: #181818;
+}
+
+.main-left{
+    height: 430px;
+    width: 40%;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 50px;
+    display: inline-block;
+}
+
+.main-left button{
+    background: #c90000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.main-left b{
+    color: #c90000;
+}
+
+.main-right{
+    height: 430px;
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    margin-right: 0;
+}
+
+
+/*//////////////////////////
+// STYLE CODES FOR
+// SERVICES
+//////////////////////////*/
+
+
+.service-main{
+    width: 90%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #181818;
+}
+
+.services-left{
+    width: 47%;
+    display: inline-block;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+
+.services-left .p1{
+    text-align: center;
+}
+
+.head{
+    text-align: left;
+    padding-left: 70px;
+}
+.services-left button{
+    background: #c90000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.services-right{
+    width: 50%;
+    background: #181818;
+    display: inline-block;
+    text-align: left;
+    padding-top: 0;
+}
+
+.services-right div{
+    border-radius: 10px;
+    background: #000;
+    padding-bottom: 30px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+.product{
+    margin-top: 50px;
+    padding-left: 30px;
+}
+
+.marketing{
+    margin-top: 15px;
+    padding-left: 30px;
+    background: #181818;
+}
+
+/*//////////////////////////
+// STYLE CODES FOR
+// RESULTS
+//////////////////////////*/
+
+.results-main{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px 0px;
+    justify-content: space-evenly;
+}
+
+.results-main div{
+    width: 35%;
+    height: 180px;
+    background: #181818;
+    border-radius: 3px;
+    text-align: center;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paragraph{
+    text-align: center;
+}
+
+.heading-1{
+    text-align: center;
+}
+
+.highlight{
+    color: #c90000;
+}

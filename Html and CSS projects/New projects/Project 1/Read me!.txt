@@ -1,0 +1,1 @@
+In this project (1), my challenge was to turn the image gray despite trying (img{ filter: grayscale(100%)}). I have also added "-webkit-", but it still doesn't work.
